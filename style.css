@@ -1,0 +1,101 @@
+body{
+    height:400vh;
+}
+.topCaro{
+    border:solid tan;
+    height:45px;
+    display:flex;
+}
+.left,.right{
+    border:solid black;
+    width:30%;
+}
+.mid{
+    /* border:solid red; */
+    width:40%;
+}
+.navbar{
+    /* border:solid blue; */
+    display:flex;
+    height:80px;
+    justify-content: space-evenly;
+}
+.logoContainer{
+    border:solid green;
+    width:55%;
+}
+.iconContainer{
+    height:40%;
+    padding-top:21px;
+}
+.icon{
+    height:100%;
+}
+.optionContainer{
+    border:solid lightgrey;
+    border-width:.2px;
+    display:flex;
+    justify-content: space-between;
+    padding:12px;
+}
+.options{
+    /* border:solid orange; */
+    text-align:center;
+    font-size:23px;
+    width:8%;
+}
+.smFilter{
+    display:flex;
+    font-size:20px;
+    margin:10px;
+}
+.topContainer{
+    border:solid black;
+    /* height:92vh; */
+}
+.imageContainer{
+    border:solid purple;
+    /* height:60%; */
+}
+.alba{
+    width:100%;
+}
+.textContainer{
+    border:solid salmon;
+    padding:1.5em;
+    font-family:'serif';
+}
+.topText{
+    text-align:center;
+    font-size:55px;
+}
+.tTxt{
+    text-align:center;
+    font-size:32px;
+}
+.picRow{
+    /* border:solid green; */
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: space-around;
+    margin:12px;
+}
+.pProduct{
+    border:double black;
+    padding:3em;
+    border-width:22px;
+    /* display:flex; */
+    margin:2em;
+}
+.imageP{
+    height:300px;
+}
+.descriptionP{
+    font-size:32px;
+    text-align:center;
+}
+.premierContainer{
+    /* border:solid blue; */
+    margin:1em;
+    
+}
