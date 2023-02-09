@@ -1,0 +1,192 @@
+body{
+    /*background-image: url("https://th.bing.com/th/id/R.93a916e72aac67a92246fa2c67999dc2?rik=h%2fuFvpgMU5I1EQ&pid=ImgRaw&r=0");*/ 
+    background-image: url("https://th.bing.com/th/id/R.577df75cadf40b630cefc10907862593?rik=9E7YlT16aHMIMw&riu=http%3a%2f%2f31.media.tumblr.com%2ffd3a5ef908185d568dfade39a647c281%2ftumblr_n3dp8n3RrT1s3e3roo1_500.gif&ehk=Urpz8exzBw9fpomp%2fDkX8K2p05QpyH3bR%2fMMvA2uUAE%3d&risl=&pid=ImgRaw&r=0");
+
+}
+/* Add a black background color to navbar */
+.navbar {
+    background-color: #b1339a;
+    overflow: hidden;
+  }
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 14px;
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .wordnav{
+    margin-top: 2.5em;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #76246b;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #aa0404;
+    color: white;
+  }
+  .navbar input[type=text] {
+    border: 1px solid #ccc;
+    background-color: pink;
+    width: 10%;
+    margin-top: 1em;
+    margin-left: 1em
+  }
+.img1{   /*LOGO MU*/
+    height: 100px;
+}
+.topContainer{
+    /*border:solid black;*/
+}
+.imageContainer{
+    /*border:solid purple;*/
+    margin-top: 1em;
+}
+.schoolPic{
+    width:100%;
+}
+.msu{
+/*border: solid greenyellow;*/
+height: 70vh;
+position: absolute;
+left: 5%;
+top: 30%;
+opacity: 0.7;
+}
+/*ALUMNI*/
+.premierContainer{
+    margin:0.5em;
+    justify-content: space-evenly;
+    margin-left: 1em;
+}
+.picRow{
+    flex-wrap:wrap;
+    display:flex;
+}
+.alumni{
+    width: 100%;
+}
+.imageP{
+    width:35vh;
+    height: 30vh;
+    border: dotted #ffffff;
+    border-width: 10px;
+    border-radius: 50%;
+}
+/* Three columns side by side */
+.fratCol {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  /* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .ok {
+    color: rgb(0, 13, 79);
+    font-size: 30px;
+    background-color: #76246b;
+    border: double #76246b;
+    border-radius: 20%;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  /*FRAT*/
+  .image-container {
+    background-image: url("https://th.bing.com/th/id/R.577df75cadf40b630cefc10907862593?rik=9E7YlT16aHMIMw&riu=http%3a%2f%2f31.media.tumblr.com%2ffd3a5ef908185d568dfade39a647c281%2ftumblr_n3dp8n3RrT1s3e3roo1_500.gif&ehk=Urpz8exzBw9fpomp%2fDkX8K2p05QpyH3bR%2fMMvA2uUAE%3d&risl=&pid=ImgRaw&r=0"); /* The image used - important! */
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 30px; /* Some height */
+  }
+  
+  .kappa {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 30px; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    width: 140%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+  /* Three columns side by side */
+.column {
+    float: left;
+    width: 23%;
+    margin-bottom: 16px;
+    margin-top: 1em;
+    padding: 0 10px;
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(190, 0, 123, 0.833);
+    background-color: #b1339a; 
+    background-image: url("https://th.bing.com/th/id/R.93a916e72aac67a92246fa2c67999dc2?rik=h%2fuFvpgMU5I1EQ&pid=ImgRaw&r=0");
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 14px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
